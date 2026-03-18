@@ -11,7 +11,7 @@ cd RansomSim
 chmod +x run.sh
 ./run.sh
 ```
-Note: If you are on Windows, chmod is not installed, dirrectly run:
+Note: If you are on Windows, chmod is not installed; directly run after cd'ing into RansomSim:
 ```
 clear
 javac -d ./build ./src/*.java
