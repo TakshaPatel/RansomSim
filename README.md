@@ -13,5 +13,7 @@ chmod +x run.sh
 ```
 Note: If you are on Windows, chmod is not installed, dirrectly run:
 ```
-
+clear
+javac -d ./build ./src/*.java
+java -cp ./build Main
 ```
