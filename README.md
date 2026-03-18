@@ -7,5 +7,6 @@ A hands-on approach to learning how ransomware works
 ```
 git clone https://github.com/TakshaPatel/RansomSim/
 cd RansomSim
+chmod +x run.sh
 ./run.sh
 ```
