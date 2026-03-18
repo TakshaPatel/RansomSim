@@ -11,3 +11,7 @@ cd RansomSim
 chmod +x run.sh
 ./run.sh
 ```
+Note: If you are on Windows, chmod is not installed, dirrectly run:
+```
+
+```
