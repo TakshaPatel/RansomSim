@@ -6,9 +6,9 @@ import java.util.Base64;
 
 
 class AESCore {
-    private static final String ALGORITHM      = "AES";
+    private static final String ALGORITHM = "AES";
     private static final String TRANSFORMATION = "AES/ECB/PKCS5Padding";
-    private static final int    KEY_SIZE        = 256;
+    private static final int KEY_SIZE = 256;
 
     public static SecretKey generateKey() throws Exception {
         KeyGenerator keyGen = KeyGenerator.getInstance(ALGORITHM);
